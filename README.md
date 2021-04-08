@@ -8,6 +8,7 @@
   <a href="#-Summary">Summary</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
   <a href="#-Tecnologies">Tecnologies</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
   <a href="#-Project">Project</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
+  <a href="#-Architecture">Architecture</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
   <a href="#-Usage">Usage</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
   <a href="#-Challenge">Challenge</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
   <a href="#-License">License</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
@@ -43,6 +44,11 @@
  <span><br/>
   <span> This application was created from the study of Rodrigo Manguinho's NodeJs, Typescript, TDD, DDD, Clean Architecture and SOLID courses. But applying my understanding of Clean Architecture. </p>
   <span> This structure was created only to help those who are starting with studies in test-oriented development, clean architecture, solid principles and design patterns. </p>
+</div><hr/><br/>
+
+<div align="center">
+  <h3><a id="user-content--architecture" class="anchor" aria-hidden="true" href="#-project">ARCHITECTURE</a></h3>
+    <p><a href="#-ARCHITECTURE"><img src="https://github.com/th14g0d3v/code/raw/main/public/code.png" alt="alt text" title="image" style="max-width:100%;"></a></p>  
 </div><hr/><br/>
 
 <div align="center">
