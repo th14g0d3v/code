@@ -3,13 +3,15 @@ import { THttpRequest, THttpResponse, IHttpClient } from '@/adapters/datas/inter
 import axios, { AxiosResponse } from 'axios'
 /**
  * @class AxiosHttpClient Receives data from the user and sends it by request to a server that responds with status code and the code back
- * @implements IHttpClient A maneira como a requisição e resposta será executado
- * @method request Envia os dados para o servidor e recebe a resposta
- * @param data Dados necessarios para a requisição
- * @var axiosResponse Resposta do servidor com status code e os dados
- * @returns Promise<THttpResponse> 
+ * @implements IHttpClient The way the request and response will be executed
+ * @returns Promise<THttpResponse> Asynchronously return status code and server data
  */
 export class AxiosHttpClient implements IHttpClient {
+  /**
+   * @method request Sends the data to the server and receives the response
+   * @param data Necessary data for the requisition
+   * @var axiosResponse Server response with status code and data
+   */
   async request (data: THttpRequest): Promise<THttpResponse> {
     let axiosResponse: AxiosResponse
     try {

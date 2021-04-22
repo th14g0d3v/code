@@ -15,7 +15,7 @@ export type THttpRequest = {
  * @interface IHttpClient Request pattern
  * @method request Sends some data and receives the answer
  * @param data Requisition data
- * @returns Asynchronously receives data from the server
+ * @returns Promise<THttpResponse<R>> Asynchronously receives data from the server
  */
 export interface IHttpClient<R = any> {
   request: (data: THttpRequest) => Promise<THttpResponse<R>>

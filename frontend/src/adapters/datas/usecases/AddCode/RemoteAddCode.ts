@@ -2,10 +2,10 @@ import { IHttpClient, EHttpStatusCode } from '@/adapters/datas/interfaces/http'
 import { IAddCode } from '@/core/usecases'
 import { UnexpectedError } from '@/core/errors'
 /**
- * @class Execute an http request to the server
+ * @class RemoteAddCode Execute an http request to the server
  * @implements IAddCode Add code
- * @constructs url Address used for the request
- * @constructs httpClient Interface that contains the signature of a request and http response
+ * @method url Address used for the request
+ * @method httpClient Interface that contains the signature of a request and http response
  * @method add Through the parameters it adds the value typed by the user to the request
  * @param IAddCode.TParam Value that the user wants to enter
  * @returns Asynchronously returns the code and its database id

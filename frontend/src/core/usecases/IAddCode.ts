@@ -1,6 +1,6 @@
 import { TCodeModel } from '@/core/models'
 /** 
- * @interface IAddCode add a code to database
+ * @interface IAddCode Add a code to database
  * @method add How the data will be used in that application
  * @param IAddCode.TParam The code entered by the user
  * @returns Promise<IAddCode.TReturn> Value returned from the database asynchronously

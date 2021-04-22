@@ -8,7 +8,7 @@ type Props = {
  * @var SubmitButton It's a form button
  * @param state Component state value
  * @param text Button name
- * @field disabled If the data entered in the form does not meet the validations, the button is not activated
+ * @property disabled If the data entered in the form does not meet the validations, the button is not activated
  * @returns Shows a button with text on it
  */
 const SubmitButton: React.FC<Props> = ({ state, text }: Props) => {

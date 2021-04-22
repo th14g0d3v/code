@@ -11,6 +11,7 @@ type Props = React.HTMLAttributes<HTMLElement> & {
 /**
  * @var Spinner A loading animation
  * @param isNegative Checks whether the page is loaded or not
+ * @param props Everyone to the properties of that HTML object
  * @returns Show an animation
  */
 const Spinner: React.FC<Props> = ({ isNegative, ...props }: Props) => {
