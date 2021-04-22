@@ -1,4 +1,4 @@
-import { IValidation } from '@/adapters/entrys/interfaces'
+import { IValidation } from '@/adapters/entries/interfaces'
 
 export class ValidationStub implements IValidation {
   errorMessage: string

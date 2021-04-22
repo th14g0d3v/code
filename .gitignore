@@ -5,6 +5,7 @@ coverage
 dist
 data
 notes.txt
+article.txt
 !src/data
 !tests/data
 globalConfig.json

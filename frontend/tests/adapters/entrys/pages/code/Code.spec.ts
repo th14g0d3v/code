@@ -1,4 +1,4 @@
-import { Code } from '@/adapters/entrys/pages'
+import { Code } from '@/adapters/entries/pages'
 import { Helper, renderWithHistory, ValidationStub } from '@/tests/adapters/entrys/test'
 import { IAddCode } from '@/core/usecases'
 import { AddCodeSpy } from '@/tests/core/test'

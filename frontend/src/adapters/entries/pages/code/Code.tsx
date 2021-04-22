@@ -1,7 +1,7 @@
 import Styles from './codeStyles.scss'
 import { codeState, Input, SubmitButton, FormStatus } from './components'
-import { currentCodeState, Logo } from '@/adapters/entrys/components'
-import { IValidation } from '@/adapters/entrys/interfaces'
+import { currentCodeState, Logo } from '@/adapters/entries/components'
+import { IValidation } from '@/adapters/entries/interfaces'
 import { IAddCode } from '@/core/usecases'
 
 import { useHistory } from 'react-router-dom'
@@ -12,7 +12,14 @@ type Props = {
   validation: IValidation
   addCode: IAddCode
 }
-
+/**
+ * @var Code Validates the data that the user enters through the interface and sends the data for http request
+ * @param validation Checks if the field and field value sent by the user are valid
+ * @param addCode The value that the user goes through the interface
+ * @var validate Function that invokes validation and makes evaluations
+ * @var handleSubmit Control the sending of form data to the http request
+ * @returns A simple page with a logo, a blank form and a button
+ */
 const Code: React.FC<Props> = ({ validation, addCode }: Props) => {
   const resetCodeState = useResetRecoilState(codeState)
   const resetCurrentCodeState = useResetRecoilState(currentCodeState)

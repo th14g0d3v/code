@@ -1,5 +1,8 @@
 import React from 'react'
-
+/**
+ * @var Logo Image converted to base64 format
+ * @returns Show a image
+ */
 const Logo: React.FC = () => {
   return (
     <div

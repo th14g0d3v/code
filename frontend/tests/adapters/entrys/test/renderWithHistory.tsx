@@ -1,6 +1,6 @@
 import { TCodeModel } from '@/core/models'
 import { mockAddCodeModel } from '@/tests/core/test'
-import { currentCodeState } from '@/adapters/entrys/components'
+import { currentCodeState } from '@/adapters/entries/components'
 
 import { Router } from 'react-router-dom'
 import { MemoryHistory } from 'history'

@@ -1,4 +1,4 @@
-import { InputBase } from '@/adapters/entrys/components'
+import { InputBase } from '@/adapters/entries/components'
 
 import { render, fireEvent, screen } from '@testing-library/react'
 import React from 'react'

@@ -1,6 +1,8 @@
 import { IFieldValidation } from '@/frameworks/validation/interfaces'
-import { IValidation } from '@/adapters/entrys/interfaces'
-
+import { IValidation } from '@/adapters/entries/interfaces'
+/**
+ * @class here the composition of the validator used by the application occurs
+ */
 export class ValidationComposite implements IValidation {
   private constructor (private readonly validators: IFieldValidation[]) {}
 
