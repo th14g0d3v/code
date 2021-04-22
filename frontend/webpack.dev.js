@@ -29,11 +29,6 @@ module.exports = merge(common, {
     contentBase: './public',
     writeToDisk: true,
     historyApiFallback: true,
-    host: '0.0.0.0',
-    disableHostCheck: true,
-    watchOptions: {
-      poll: true // Or you can set a value in milliseconds.
-    },
     port: 8080
   },
   plugins: [
