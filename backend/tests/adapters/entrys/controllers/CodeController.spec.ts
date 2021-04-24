@@ -1,6 +1,6 @@
-import { CodeController } from '@/adapters/entrys/controllers'
-import { ServerError } from '@/adapters/entrys/errors'
-import { ok, serverError } from '@/adapters/entrys/https'
+import { CodeController } from '@/adapters/entries/controllers'
+import { ServerError } from '@/adapters/entries/errors'
+import { ok, serverError } from '@/adapters/entries/https'
 import { AddCodeSpy } from '@/tests/adapters/entrys/mocks'
 import { throwError } from '@/tests/core/mocks'
 

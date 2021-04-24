@@ -1,7 +1,10 @@
-import { IController } from '@/adapters/entrys/interfaces'
+import { IController } from '@/adapters/entries/interfaces'
 
 import { Request, Response } from 'express'
-
+/**
+ * @var adaptRoute Adapts http operations from express to the application
+ * @param controller Contract used for http requests
+ */
 export const adaptRoute = (controller: IController) => {
   return async (req: Request, res: Response) => {
     const request = {

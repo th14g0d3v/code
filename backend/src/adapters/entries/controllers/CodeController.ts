@@ -1,7 +1,12 @@
-import { IController, THttpResponse } from '@/adapters/entrys/interfaces'
-import { serverError, ok } from '@/adapters/entrys/https'
+import { IController, THttpResponse } from '@/adapters/entries/interfaces'
+import { serverError, ok } from '@/adapters/entries/https'
 import { IAddCode } from '@/core/usecases'
-
+/**
+ * @class CodeController Controls the route with the data
+ * @implements IController The way the contract is to be performed
+ * @method handle Receives customer data, adds the code to the database and returns it to the customer
+ * @returns The code that was inserted into the database
+ */
 export class CodeController implements IController {
   constructor(private readonly addCode: IAddCode) { }
 
